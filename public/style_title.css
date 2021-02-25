@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/* master */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-size:80%;
+	line-height:165%;
+	text-align:left;
+	margin:0;
+	padding:0;
+	display:block;
+	color:#222222;
+	font-family:'Quicksand' Verdana, Chicago, Arial, Helvetica, sans-serif;
+	background: #FFFFFF fixed repeat-x bottom url(bg_tit.png);
+}
+
+#tit {
+	width:100%;
+	height;100%;
+	margin:0;
+	padding:0;
+	background: url(bg_tit2.png) fixed no-repeat right bottom;
+}
+
+img {border:none;}
+
+/* title */
+
+h1 {
+	font-size:60px;
+	line-height:60px;
+	font-family:'Quicksand';
+	padding:20px;
+	font-weight:normal;
+	color:#99CC00;
+}
+
+a.tit, a.tit:link, a.tit:visited  {color:#99CC00;text-decoration:none;}
+a.tit:active, a.tit:hover {color:#99CC00;border-bottom:3px solid #99CC00;}
+

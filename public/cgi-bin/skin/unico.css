@@ -1,0 +1,88 @@
+/* unico diary 用 CSS ファイル　　        　　　　 */
+/* 使いやすいように編集してくださってかまいません。*/
+
+body {scrollbar-face-color: #FFEAAA;
+scrollbar-highlight-color: #FFEAAA;
+scrollbar-shadow-color: #FFEAAA;
+scrollbar-3dlight-color: #FFEAAA; 
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+scrollbar-darkshadow-color: #FFEAAA;
+background-color : #FFFFFF;
+background-image:url(top.jpg); 
+background-repeat:repeat-y; 
+background-position: right; 
+background-attachment:fixed;
+font-size:80%;line-height:140%;}
+A{text-decoration:none;color:#0EA4DC;}
+A:hover{color:skyblue;}
+
+/* 幅 -------------------------------------------- */
+p,div,h1,h2,table{	width:80%;}
+
+/* 題字 ------------------------------------------ */
+h1,h2{
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	font:bold 100%/100% verdana;
+}
+
+/* フォーム部品 ---------------------------------- */
+input,textarea,select{
+	border-top: solid 1px #999999;
+	border-right: solid 1px #999999;
+	border-bottom: solid 1px #999999;
+	border-left: solid 1px #999999;
+	background-color: #ffffff;
+}
+
+textarea{ width:100%;}
+
+/* テーブル装飾 ---------------------------------- */
+table{	border:none;}
+
+/* 項目名 ---------------------------------------- */
+td.key{
+	width:20%;
+	font:bold 100%/100%;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	background-color: #cccccc;
+	border: solid 1px #999999;
+	padding:5px;
+}
+
+/* 入力内容 -------------------------------------- */
+td.value{
+	border: solid 1px #999999;
+	padding:5px;
+}
+td.value input{
+	width:100%
+}
+
+td.value input.mini{
+	width:10%;
+}
+
+/* 編集・削除ボタン ------------------------------ */
+p.wd{	text-align:center;}
+p.wd input, p.wd select{	width:40%;}
+
+/* 著作権表示部 ---------------------------------- */
+p.copy{
+	font:bold 80% verdana,arial,helvetica;
+	text-align:right;
+}
+
+p.msg{
+	border: solid 1px #999999;
+	font-size:80%/140%;
+	padding:10px;
+}
+form.fm{
+	width:100%;
+	border: solid 1px #999999;
+	padding:10px;
+	text-align: center;
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+* {
+}
+
+body {
+	font-size:80%;
+	line-height:165%;
+	text-align:left;
+	display:block;
+	color:#222222;
+	margin-left:30px;
+	background: #FFFFFF url(bg.png) repeat-x top fixed;
+
+}
+
+td {
+	color:#222222;
+	font-size:80%;
+	padding: 5px 5px 5px 5px;
+}
+
+a {
+	text-decoration:none;
+	color:#85B000;
+	font-size:120%;
+	font-weight:bold;
+}
+
+a:hover {
+	color:#508901;
+	font-size:120%;
+	border-bottom:1px solid #508901;
+	font-weight:bold;
+}
+
+a.lnk {
+	text-decoration:none;
+	color:#508901;
+	font-size:120%;
+	font-weight:normal;
+}
+
+a.lnk:hover {
+	color: #99CC00;
+	font-size:120%;
+	border-bottom:1px solid #99CC00;
+	font-weight:normal;
+}
+
+.pad {
+	margin-left:7px;
+	width:90%;
+}
+
+ul {
+	width:85%;
+}
+
+.pad_lnk {
+	margin-left:7px;
+}
+
+table {margin-left:10px;}
+
+h2 {
+	border-bottom:3px solid #99CC00;
+	color:#508901;
+	font-size:110%;
+	width:90%;
+	font-weight:bold;
+	padding: 5px 5px 5px 10px;
+	margin-top:32px;
+}
+
+h1 {
+
+	border-left:10px solid #85B000;
+	color:#85B000;
+	font-size:120%;
+	width:90%;
+	font-weight:bold;
+	padding: 8px 8px 8px 10px;
+	margin-top:20px;
+}
+
+em {
+	font-style:normal;
+	color:#508901;
+	font-weight:bold;
+}
+
+em.st3 {
+	font-style:normal;
+	color:#85B000;
+	font-weight:bold;
+}
+
+em.st {
+	font-style:normal;
+	color:#508901;
+	font-weight:normal;
+}
+
+.ha {color:#FF0000;}
+
+.mini {font-size:80%;}
+
+.hidden {
+	color:#FFFFFF;
+}
+
+.hidden2 {
+	font-size:1px;
+	color:#FFFFFF;
+	margin:0;
+	padding:0;
+	line-height:1px;
+}
+
+.returner {
+	padding-top:15px;
+	padding-bottom:10px;
+}
+
+img {border:none;}
+
+img.pict {
+	float: left;
+	clear: left;
+	padding-right:8px;
+	padding-bottom:10px;
+}
+
+p.hide {display:none;}
+
+div.cle {
+	clear: both;
+	width:100%;
+}
+
+
+
+/* CGI */
+.cent {text-align:center;}
+
+.rig {text-align:right;margin-right:20px;}
+
+.form_b {
+	border:1px solid #555555;
+	font-size:10pt;
+	color:#508901;
+	background-color:#F1F1F1;
+}
+
+.form_t {
+	border:1px solid #555555;
+	font-size:10pt;
+	color:#222222;
+	background-color:#F1F1F1;
+}
+

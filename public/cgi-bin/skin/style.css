@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+html {
+	scrollbar-face-color:#FFFFFF;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-3dlight-color:#FFFFFF; 
+	scrollbar-arrow-color:#319AC8;
+	scrollbar-track-color:#D8EB6D;
+	scrollbar-darkshadow-color:#FFFFFF;
+}
+
+div, p, hr {
+	position: static;
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+}
+
+em {
+	color:#319AC8;
+	font-weight:bold;
+	font-style: normal;
+}
+
+br {
+	letter-spacing: 0;
+}
+
+/* body */
+
+body div {
+	margin: 0 auto;
+	font-family: Verdana, Arial, sans-serif, Osaka;
+	text-align: left;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: #D8EB6D;
+}
+
+#main {
+	width: 600px;
+	padding: 0 0;
+	margin: auto;
+	background: #fff url(./img/top.png) top center no-repeat;
+}
+
+#title {
+	width: 600px;
+	padding: 0 0;
+	margin: auto;
+	height: 120px;
+	background: #fff url(./img/bottom.png) bottom center no-repeat;
+}
+
+#menu {
+	width: 600px;
+	padding: 0 0;
+	margin: auto;
+	background: #D8EB6D;
+	height: 30px;
+}
+
+#menu hr {
+	display:none;
+}
+
+div.content {
+	font-size:80%;
+	color:#333333;
+	margin:5px;
+	padding:20px;
+	line-height:150%;
+	clear:both;
+}
+
+div.content p {
+	padding:5px;
+}
+
+div.content h2 {
+	border-bottom:3px solid #D8EB6D;
+	font-weight:bold;
+	color:#CCCCCC;
+	font-size:185%;
+	text-align:right;
+	padding-bottom:6px;
+	margin-bottom:7px;
+	letter-spacing: 2px;
+}
+
+div.content h3 {
+	color:#319AC8;
+	font-weight:bold;
+	margin-bottom:7px;
+}
+
+div.footer {
+	font-size:60%;
+	color:#333333;
+	margin:0;
+	padding:20px;
+	line-height:150%;
+	clear:both;
+	text-align:center;
+}
+
+/*アンカー*/
+a {
+	text-decoration:none;
+	color: #319AC8;	border-bottom:1px dotted #319AC8;
+}
+
+a:link, a:visited {
+	color: #319AC8;
+}
+
+a:hover, a:active {
+	color: #FF667F; border-bottom:1px dotted #FF667F;
+}
+
+span.prev {
+	float:left;
+	font-size:130%;
+}
+
+span.next {
+	float:right;
+	font-size:130%;
+}
+
+/*タイトル*/
+
+h1 {
+	display: block;
+	padding-top:67px;
+	padding-right:15px;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FF667F;
+	float:right;
+}
+
+div img {
+	border: none;
+ 	float:left;
+	clear:left;
+	margin:0 5px;
+	display:inline;
+}
+
+img { display:none; }
